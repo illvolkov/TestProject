@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         let newView = UIView()
         view.addSubview(newView)
     }
+    
+    func yellowSetupView() {
+        view.backgroundColor = .yellow
+    }
 
 }
 
